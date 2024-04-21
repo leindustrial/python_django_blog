@@ -10,8 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fabccbc-b5ee-47e2-be54-a57f77b3b216" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/le_posts/static/css/Geometria-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le_posts/static/css/Geometria.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le_posts/static/css/photo-le.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/le_posts/templates/le_posts/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/le_posts/templates/le_posts/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/le_posts/templates/le_posts/resetcss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/le_posts/templates/le_posts/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/kalelique/Yandex.Disk.localized/002_Education/Django_girls_2024/le_posts/templates/le_posts",
+    "last_opened_file_path": "/Users/kalelique/Yandex.Disk.localized/002_Education/Django_girls_2024/le_posts/static/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +63,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/le_posts/static/img" />
       <recent name="$PROJECT_DIR$/le_posts/templates/le_posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/le_posts/static/css" />
+      <recent name="$PROJECT_DIR$/le_posts/templates/le_posts/static/css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713685386896</updated>
       <workItem from="1713685388550" duration="4557000" />
-      <workItem from="1713691277593" duration="9816000" />
+      <workItem from="1713691277593" duration="11846000" />
     </task>
     <servers />
   </component>

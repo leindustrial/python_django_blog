@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
     <meta charset="utf-8">
     <meta description="Löla Le, probably the next Russian hacker">
     <meta keywords="coding, python, django, html, css, web developement">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="{% static 'css/le_posts.css' %}">
 </head>
 
 
@@ -47,18 +48,19 @@
             </ul>
         </section>
 
-    </main>
-
-    <footer class="footer">
-        {% for post in posts %}
+    <br><br><br>
+        <section class="heading">
+            <h1>Blog</h1>
+        </section>
+        <br>
         <article class="article">
-            <time class="time">published: {{ post.published_date }}</time>
-            <h2><a href="">{{ post.title }}</a></h2>
-            <p>{{ post.text|linebreaksbr }}</p>
-        </article>
+        {% for post in posts %}
+            <time class="time">published: {{ post.published_date }}</time><br>
+            <h2 class="post_header"><a class="link" href="">{{ post.title }}</a></h2>
+            <p class="post_text">{{ post.text|linebreaksbr }}</p> <br>
         {% endfor %}
-    </footer>
-
+        </article>
+    </main>
 </div>
 </body>
 </html>

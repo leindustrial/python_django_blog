@@ -67,7 +67,38 @@ body {
 .text {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14pt;
-	line-height: 18pt;
+	line-height: 20pt;
+}
+
+.article {
+	font-family: geometria;
+	font-size: 14pt;
+	line-height: 22pt;
+}
+
+.post_header {
+	font-family: geometria;
+	font-size: 20pt;
+	line-height: 32pt;
+	color: #1b1b1b;
+}
+.post_text {
+	font-family: geometria;
+	font-size: 14pt;
+	line-height: 20pt;
+	color: #1b1b1b;
+}
+
+.link {
+	font-family: geometria;
+	font-size: 20pt;
+	line-height: 32pt;
+	color: #1b1b1b;
+}
+
+.time {
+	font-size: 9pt;
+	color: grey;
 }
 
 #list {
@@ -76,14 +107,6 @@ body {
 
 .footer {
 	width: 700px;
-}
-
-.logo {
-	height: 160px;
-	background-image: url(logo_2-lines.svg);
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 

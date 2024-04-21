@@ -9,5 +9,6 @@
     {% endif %}
     <h2 class="post_header">{{ post.title }}</h2>
     <p class="post_text">{{ post.text|linebreaksbr }}</p>
+    <img src="{{post.image.url}}">
 </article>
 {% endblock %}

@@ -1,33 +1,14 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'le_posts/base.html' %}
 
-<head>
-    <title>Lola Le</title>
-    <meta charset="utf-8">
-    <meta description="Löla Le, probably the next Russian hacker">
-    <meta keywords="coding, python, django, html, css, web developement">
-    <link rel="stylesheet" href="{% static 'css/le_posts.css' %}">
-</head>
+{% block content0 %}
+    <div class="photo-le"></div>
+{% endblock %}
 
-
-<body>
-<div class="sitebody">
-    <header class="header">
-        <div class="name">Löla Le</div>
-        <div class="photo-le"></div>
+{% block content1 %}
         <br>
-        <!--<div class="menu">
-            <a href="" target="_blank">About</a> | <a href="" target="_blank">Portfolio</a> | <a href="" target="_blank"> Contact</a>
-        </div>
-        <br> -->
-
-    </header>
-
-    <main class="main">
         <section class="heading">
-            <h1>probably the next Russian hacker.
-                <br>Welcome to my blog!</h1>
+            <h1>probably the next
+                <br>Russian hacker.</h1>
         </section>
 
         <br>
@@ -47,21 +28,14 @@
                 <li id="list">– graphic design skills and great sense of typography :)</li>
             </ul>
         </section>
+{% endblock %}
 
-    <br><br><br>
-        <section class="heading">
-            <h1>Blog</h1>
-        </section>
-        <br>
-        <article class="article">
+{% block content2 %}
         {% for post in posts %}
+        <article class="article">
             <time class="time">published: {{ post.published_date }}</time><br>
-            <h2 class="post_header"><a class="link" href="">{{ post.title }}</a></h2>
+            <h2 class="post_header"><a class="link" href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
             <p class="post_text">{{ post.text|linebreaksbr }}</p> <br>
-        {% endfor %}
         </article>
-    </main>
-</div>
-</body>
-</html>
-
+        {% endfor %}
+{% endblock %}

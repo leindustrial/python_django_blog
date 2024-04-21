@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lola Le</title>
+    <meta charset="utf-8">
+    <meta description="Löla Le, probably the next Russian hacker">
+    <meta keywords="coding, python, django, html, css, web developement">
+    <link rel="stylesheet" href="{% static 'css/le_posts.css' %}">
+</head>
+
+
+<body>
+        <div class="sitebody">
+            <header class="header">
+                <div class="name">Löla Le</div>
+                {% block content0 %}
+                {% endblock %}
+            </header>
+            <div class="sitebody">
+                <main class="main">
+                    {% block content1 %}
+                    {% endblock %}
+                    <br>
+                    <section class="heading">
+                        <h1>Welcome to my blog!</h1>
+                    </section>
+                    <br>
+                    {% block content2 %}
+                    {% endblock %}
+                </main>
+            </div>
+        </div>
+</body>
+</html>

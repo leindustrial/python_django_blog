@@ -10,13 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fabccbc-b5ee-47e2-be54-a57f77b3b216" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/le_posts/static/css/Geometria-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le_posts/static/css/Geometria.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le_posts/static/css/photo-le.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le_posts/templates/le_posts/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/le_posts/templates/le_posts/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/le_posts/templates/le_posts/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/le_posts/templates/le_posts/resetcss.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/le_posts/templates/le_posts/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/le_posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/le_posts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/le_posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/le_posts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713685386896</updated>
       <workItem from="1713685388550" duration="4557000" />
-      <workItem from="1713691277593" duration="11846000" />
+      <workItem from="1713691277593" duration="15718000" />
     </task>
     <servers />
   </component>

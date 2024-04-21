@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fabccbc-b5ee-47e2-be54-a57f77b3b216" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/le_posts/templates/le_posts/resetcss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le_posts/templates/le_posts/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/le_posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/le_posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/le_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/le_blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/le_posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/le_posts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/kalelique/Yandex.Disk.localized/002_Education/Django_girls_2024",
+    "last_opened_file_path": "/Users/kalelique/Yandex.Disk.localized/002_Education/Django_girls_2024/le_posts/templates/le_posts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +59,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/le_posts/templates/le_posts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713685386896</updated>
       <workItem from="1713685388550" duration="4557000" />
-      <workItem from="1713691277593" duration="1723000" />
+      <workItem from="1713691277593" duration="5917000" />
     </task>
     <servers />
   </component>
